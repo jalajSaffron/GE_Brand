@@ -1,0 +1,4 @@
+Screen Size
+width:- 1449
+container(1) width: 1242 + 30 = 1272 
+container(2) width: 1272 + 30 = 1302
