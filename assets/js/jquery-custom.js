@@ -157,3 +157,14 @@ $('.item').click(function () {
     })
 
     /*      jjjjjjjjjjjjjjjjjjjjjjjjjjjj  j close  jjjjjjjjjjjjjjjjjjjjjjjjjjjj       */
+
+
+    // waqar 09-11-2022 open
+    $(window).scroll(function(){
+        if ($(window).scrollTop() > 50) {
+              $(".wrapper__header__slider").addClass("header_bg");
+          } else {
+              $(".wrapper__header__slider").removeClass("header_bg");
+          }
+      });
+    // waqar 09-11-2022 close
